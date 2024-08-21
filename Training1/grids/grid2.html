@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example 2</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr 2fr; /* Two columns with 1:2 ratio */
+            grid-template-rows: auto auto; /* Two rows with automatic height */
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: lightcoral;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .grid-item:nth-child(1) {
+            grid-column: span 2; 
+        }
+
+        .grid-item:nth-child(3) {
+            grid-row: span 2; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item">Header</div>
+        <div class="grid-item">Sidebar</div>
+        <div class="grid-item">Main Content</div>
+        <div class="grid-item">Footer</div>
+        <div class="grid-item">fffffffffff</div>
+        <div class="grid-item">fffffffffff</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">Header</div>
+        <div class="grid-item">Sidebar</div>
+        <div class="grid-item">Main Content</div>
+        <div class="grid-item">Footer</div>
+        <div class="grid-item">fffffffffff</div>
+        <div class="grid-item">fffffffffff</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">dddd</div>
+        <div class="grid-item">dddd</div>
+
+
+
+    
+
+
+    </div>
+
+</body>
+</html>

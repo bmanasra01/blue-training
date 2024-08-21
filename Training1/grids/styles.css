@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Hero Section Customization */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+}
+
+/* Section Spacing */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Portfolio Card Customization */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer Customization */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
